@@ -1,7 +1,4 @@
-﻿using FluentEmail.Core;
-using Microsoft.Extensions.DependencyInjection;
-
-var serviceCollection = new ServiceCollection();
+﻿var serviceCollection = new ServiceCollection();
 
 var fromEmail = "fromEmail@gmail.com";
 var toEmail = "toEmail@gmail.com";
